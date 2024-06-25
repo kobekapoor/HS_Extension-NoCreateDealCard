@@ -1,0 +1,23 @@
+{
+  "name": "Inboda",
+  "description": "This is an example app that adds a sidebar card to show deals without the Add button. Creating a soft security feature to prevent users from adding deals directly from the card.",
+  "uid": "get_started_app",
+  "scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write",
+    "crm.objects.deals.read",
+    "crm.objects.deals.write",
+    "crm.schemas.custom.read",
+    "crm.schemas.deals.read"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/example-card.json"
+        }
+      ]
+    }
+  }
+}

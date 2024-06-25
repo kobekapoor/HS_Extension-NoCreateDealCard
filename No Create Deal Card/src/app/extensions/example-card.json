@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "All Deals",
+    "uid": "get_started_card",
+    "location": "crm.record.sidebar",
+    "module": {
+      "file": "Example.jsx"
+    },
+    "objectTypes": [{ "name": "contacts" }]
+  }
+}
